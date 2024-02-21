@@ -1,4 +1,5 @@
 package Org.KangJeongTaek.calc01;
+
 import java.util.Scanner;
 public class CalcClass01 {
 	public static void main(String[] args) {
