@@ -1,5 +1,0 @@
-package KangJeongTaek.day14.P710;
-
-public interface Comparable {
-
-}

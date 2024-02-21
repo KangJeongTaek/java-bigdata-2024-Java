@@ -1,5 +1,0 @@
-package KangJeongTaek.day13.Thread.P697;
-@FunctionalInterface
-public interface Calculable {
-	void calculate(int x, int y);
-}

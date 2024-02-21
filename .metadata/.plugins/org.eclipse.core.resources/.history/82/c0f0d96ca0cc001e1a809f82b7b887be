@@ -1,5 +1,0 @@
-package KangJeongTaek.day13.Thread.P697;
-
-public interface Calculable {
-
-}

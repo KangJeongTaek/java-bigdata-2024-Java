@@ -1,9 +1,0 @@
-package KangJeongTaek.day14.P712;
-
-public class Person {
-	public Member getMamber1(Creatable1 creatable) {
-		String id = "winter";
-		Member member = creatable.create(id);
-		return member;
-	}
-}
