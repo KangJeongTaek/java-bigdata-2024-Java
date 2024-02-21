@@ -1,0 +1,54 @@
+package Org.KangJeongTaek.Thread;
+
+public class ThreadFive {
+	public static void main(String[] args) throws Exception{
+		MyCl myclass = new MyCl();
+		
+		for(int i =0; i<1000;i++) {
+			Runnable task = new Increase1(myclass);
+			Runnable task1 = new Decrease1(myclass);
+			Thread th = new Thread(task);
+			Thread th1 = new Thread(task1);
+			th.start();
+		}
+		
+		
+		myclass.getCount();
+	}
+}
+
+
+class MyCl{
+	private int count;
+	
+	public void increase() {
+		count++;
+	}
+	public void decrease() {
+		count--;
+	}
+	public void getCount() {
+		System.out.println(count);
+	}
+}
+
+class Increase1 implements Runnable{
+	MyCl myclass;
+	@Override
+	public void run() {
+		myclass.increase();
+	}
+	Increase1(MyCl myclass){
+		this.myclass = myclass;
+	}
+}
+class Decrease1 implements Runnable{
+	MyCl myclass;
+	@Override
+	public void run() {
+		myclass.decrease();
+	}
+	Decrease1(MyCl myclass){
+		this.myclass = myclass;
+	}
+}

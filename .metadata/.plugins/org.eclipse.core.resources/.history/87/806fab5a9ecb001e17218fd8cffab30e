@@ -1,0 +1,8 @@
+package KangJeongTaek.day12.Generic.G2;
+
+public class Product {
+	public class Product<K,M>{
+		
+		private K 
+	}
+}

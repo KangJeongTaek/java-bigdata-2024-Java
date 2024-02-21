@@ -1,0 +1,66 @@
+package Org.KangJeongTaek.Thread;
+
+public class ThreadFour {
+
+	public static void main(String[] args) throws Exception {
+		MyClass my = new MyClass();
+		for (int i = 0; i < 10000; i++) {
+			Thread thread1 = new Thread(new Runnable() {
+				@Override
+				public void run() {
+					my.increase();
+				}
+			});
+			
+			Thread thread2 = new Thread(new Runnable() {
+				@Override
+				public void run() {
+					my.decrease();
+				}
+			});
+			
+			thread1.start();
+			thread2.start();
+		}
+		my.getCount();
+	}
+}
+
+class Increase implements Runnable {
+	MyClass my = new MyClass();
+
+	@Override
+	public void run() {
+		my.increase();
+	}
+
+}
+
+class Decrease implements Runnable {
+	MyClass my = new MyClass();
+
+	@Override
+	public void run() {
+		my.decrease();
+	}
+}
+
+class MyClass {
+	private int count;
+
+	public synchronized void increase() {
+
+		count++;
+	}
+
+	public void decrease() {
+		synchronized (this) {
+
+			count--;
+		}
+	}
+
+	public void getCount() {
+		System.out.println(count);
+	}
+}

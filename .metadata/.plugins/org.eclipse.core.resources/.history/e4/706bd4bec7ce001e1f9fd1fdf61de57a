@@ -1,0 +1,7 @@
+package KangJeongTaek.day14.P705;
+
+public class hi {
+	public void hi(){
+		System.out.println("안녕");
+	}
+}

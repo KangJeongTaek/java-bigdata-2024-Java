@@ -1,0 +1,16 @@
+package Org.KangJeongTaek.Book;
+
+import java.util.Scanner;
+public class Bookmain {
+	public static void main(String[] args) {
+		//도서 등록
+		Scanner sc = new Scanner(System.in);
+		String bookName = sc.nextLine();
+		String author = sc.nextLine();
+		BookClass a = new BookClass("나는 고양이로소이다","가와바타 야스나리",15000,"민음사");
+		
+		
+		
+		
+	}
+}

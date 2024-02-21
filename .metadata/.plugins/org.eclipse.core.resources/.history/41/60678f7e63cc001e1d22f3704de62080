@@ -1,0 +1,17 @@
+package Org.KangJeongTaek.Thread;
+
+public class ThreadTwo extends Thread{
+	@Override
+	public void run() {
+		System.out.println(getName() + "시작됐습니다.");
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {}
+	}
+	
+	public static void run(String[] args) {
+		
+		
+	}
+
+}

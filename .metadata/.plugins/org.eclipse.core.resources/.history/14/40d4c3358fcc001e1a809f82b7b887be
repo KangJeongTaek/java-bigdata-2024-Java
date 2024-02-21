@@ -1,0 +1,15 @@
+package KangJeongTaek.day13.Thread.P622;
+
+public class PrintThread extends Thread{
+	public void run() {
+		System.out.println("실행 중");
+		while (true) {
+
+			if (Thread.interrupted()) {
+				break;
+			}
+		}
+		System.out.println("리소스 정리");
+		System.out.println("실행 종료");
+	}
+}

@@ -1,0 +1,43 @@
+package Org.KangJeongTaek.Book;
+
+import java.util.Scanner;
+
+public class Bookmain {
+	static BookClass[] bookclass = new BookClass[100];
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("1. 도서 등록 \n2. 도서 검색 \n3. 도서 삭제\n4. 도서 확인 \n5. 도서 구입 \n0.종료\n");
+		int menuInput = sc.nextInt();
+		switch (menuInput) {
+		case 1:
+			registration();
+			break;
+		case 2:
+
+		case 4:
+
+		}
+	}
+
+	// 도서 등록 메소드
+	public static void registration() {
+		int i = 0;
+		Scanner sc = new Scanner(System.in);
+		System.out.print("도서 이름은 입력하세요. : ");
+		String title = sc.nextLine();
+		System.out.print("저자를 입력하세요. : ");
+		String author = sc.nextLine();
+		System.out.print("가격을 입력하세요. : ");
+		int price = sc.nextInt();
+		sc.nextLine();
+		System.out.print("출판사를 입력하세요. :");
+		String publisher = sc.nextLine();
+		bookclass[i] = new BookClass(title, author, price, publisher);
+		i++;
+	}
+	
+	public static void search() {
+		
+	}
+}

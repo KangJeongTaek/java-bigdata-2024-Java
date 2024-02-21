@@ -1,0 +1,10 @@
+package KangJeongTaek.day14.P704;
+
+public class Person {
+	public void action(Calcuable calcuable) {
+		double x = 10;
+		double y= 4;
+		double result = calcuable.calc(10,4);
+		System.out.println("결과는 " + result + "입니다.");
+	}
+}

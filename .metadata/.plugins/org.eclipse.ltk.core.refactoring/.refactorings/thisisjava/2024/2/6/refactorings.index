@@ -1,0 +1,29 @@
+1707093687165	Move compilation unit
+1707096093881	Move compilation unit
+1707097153849	Rename compilation unit 'Car.java'
+1707097566236	Rename type 'Car'
+1707102272190	Rename type 'Calculator'
+1707179356794	Move compilation unit
+1707179367366	Rename type 'Calculator'
+1707184494823	Rename package 'KangJeongTaek.day07.ㅊ'
+1707184507117	Rename type 'ㅊ'
+1707190004052	Rename package 'KangJeongTaek.day07.Phont'
+1707271528109	Delete element
+1707271893533	Rename type 'HankookTrie'
+1707290756302	Rename type 'RemoteControl'
+1707290788758	Delete element
+1707292180827	Delete element
+1707351571512	Delete element
+1707352844154	Rename compilation unit 'Audio.java'
+1707352864381	Rename type 'Audio1'
+1707356248201	Extract interface 'Service1'
+1707356251829	Delete element
+1707356261003	Rename type 'Service1'
+1707357418174	Delete element
+1707359423752	Delete element
+1707359430002	Delete element
+1707359888457	Delete element
+1707359926094	Rename compilation unit 'RemoteControl.java'
+1707361691704	Delete element
+1707361721320	Rename type 'Vehicle'
+1707362390706	Delete element

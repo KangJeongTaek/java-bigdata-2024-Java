@@ -1,0 +1,42 @@
+package Org.KangJeongTaek.Thread;
+
+public class ThreadFour {
+	
+
+	public static void main(String[] args) {
+		MyClass my = new MyClass();
+		for (int i = 0; i < 10000; i++) {
+			Thread thread1 = new Thread(new Runnable() {
+				@Override
+				public void run() {
+					my.increase();
+				}
+			});
+			Thread thread2 = new Thread(new Runnable() {
+				@Override
+				public void run() {
+					my.decrease();
+				}
+			});
+			thread1.start();
+
+		}
+		my.getCount();
+	}
+}
+
+class MyClass {
+	private int count;
+
+	public void increase() {
+		count++;
+	}
+
+	public void decrease() {
+		count--;
+	}
+
+	public void getCount() {
+		System.out.println(count);
+	}
+}

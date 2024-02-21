@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="KangJeongTaek.day06.Class.Korean.Korean"/>
+    <fullyQualifiedTypeName name="KangJeongTaek.day09.DefaultMethod.RemoteControl"/>
+    <fullyQualifiedTypeName name="com.name.by.ProductClass"/>
+    <fullyQualifiedTypeName name="KangJeongTaek.day10.nestedClass.A.B"/>
+    <fullyQualifiedTypeName name="KangJeongTaek.day10.nestedClass.A1.B"/>
+    <fullyQualifiedTypeName name="KangJeongTaek.day10.nestedStaticClass.A.B"/>
+    <fullyQualifiedTypeName name="javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar"/>
+    <fullyQualifiedTypeName name="KangJeongTaek.day10.nestedInterface.Button.ClickListener"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="KangJeongTaek.day11.CalendarExample.PrintTimeZoneID"/>
+    <fullyQualifiedTypeName name="java.util.TimeZone"/>
+    <fullyQualifiedTypeName name="java.util.regex.Pattern"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Constructor"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Field"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Method"/>
+    <fullyQualifiedTypeName name="KangJeongTaek.day07.Pratice.Student"/>
+    <fullyQualifiedTypeName name="KangJeongTaek.day12.Generic.G4.Person.Worker"/>
+    <fullyQualifiedTypeName name="KangJeongTaek.day12.Generic.G4.Course"/>
+    <fullyQualifiedTypeName name="java.awt.Toolkit"/>
+    <fullyQualifiedTypeName name="Org.KangJeongTaek.Thread.MyClass"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.Main"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.Callable"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.ExecutorService"/>
+    <fullyQualifiedTypeName name="KangJeongTaek.day14.P704.Person"/>
+    <fullyQualifiedTypeName name="KangJeongTaek.day14.P704.Calcuable"/>
+    <fullyQualifiedTypeName name="java.util.Vector"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+</qualifiedTypeNameHistroy>

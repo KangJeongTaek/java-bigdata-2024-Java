@@ -1,0 +1,23 @@
+package Org.KangJeongTaek.Thread;
+
+public class ThreadFive {
+	public static void main(String[] args) {
+		
+		
+	}
+}
+
+
+class MyCl{
+	private int count;
+	
+	public void increase() {
+		count++;
+	}
+	public void decrease() {
+		count--;
+	}
+	public void getCount() {
+		System.out.println(count);
+	}
+}

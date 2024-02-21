@@ -1,0 +1,34 @@
+package Org.KangJeongTaek.Thread;
+
+public class ThreadFive {
+	public static void main(String[] args) {
+		
+		
+	}
+}
+
+
+class MyCl{
+	private int count;
+	
+	public void increase() {
+		count++;
+	}
+	public void decrease() {
+		count--;
+	}
+	public void getCount() {
+		System.out.println(count);
+	}
+}
+
+class Increase1 implements Runnable{
+	MyCl myclass;
+	@Override
+	public void run() {
+		
+	}
+	Increase1(myclass){
+		this.myclass = myclass;
+	}
+}

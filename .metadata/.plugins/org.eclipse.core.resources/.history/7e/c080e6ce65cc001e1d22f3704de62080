@@ -1,0 +1,24 @@
+package Org.KangJeongTaek.Thread;
+
+public class ThreadThree implements Runnable{
+	@Override
+	public void run() {
+		System.out.println(Thread.currentThread().getName() + " Start");
+		try{
+			Thread.sleep(1000);
+		}catch(Exception e) {}
+		System.out.println(Thread.currentThread().getName() + " Stop");
+	}
+	
+	public static void main(String[] args) {
+		Runnable t = new ThreadThree();
+		Thread thread = new Thread(t);
+		for(int i = 0; i<=10; i++) {
+			thread.run();
+		}
+		
+		}
+		
+	}
+
+

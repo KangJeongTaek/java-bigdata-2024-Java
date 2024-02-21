@@ -1,0 +1,71 @@
+package Org.KangJeongTaek.Book;
+
+import java.util.Scanner;
+
+public class Bookmain {
+	static BookClass[] bookclass = new BookClass[100];
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("1. 도서 등록 \n2. 도서 검색 \n3. 도서 삭제\n4. 도서 확인 \n5. 도서 구입 \n0.종료\n");
+		int menuInput = sc.nextInt();
+		switch (menuInput) {
+		case 1:
+			registration();
+		case 2:
+			search();
+		case 4:
+			for (int i = 0; i < bookclass.length; i++) {
+				if (bookclass[i] != null) {
+					String title = bookclass[i].getTitle();
+					String author = bookclass[i].getAuthor();
+					int price = bookclass[i].getPrice();
+					String publisher = bookclass[i].getPublisher();
+					System.out.println(
+							"도서명 : " + title + "\n저자명 : " + author + "\n가격 : " + price + "\n출판사 : " + publisher);
+				}
+			}
+		}
+	}
+
+	// 도서 등록 메소드
+	public static void registration() {
+		int i = 0;
+		Scanner sc = new Scanner(System.in);
+		System.out.print("도서 이름은 입력하세요. : ");
+		String title = sc.nextLine();
+		System.out.print("저자를 입력하세요. : ");
+		String author = sc.nextLine();
+		System.out.print("가격을 입력하세요. : ");
+		int price = sc.nextInt();
+		sc.nextLine();
+		System.out.print("출판사를 입력하세요. :");
+		String publisher = sc.nextLine();
+		bookclass[i] = new BookClass(title, author, price, publisher);
+		i++;
+		sc.close();
+	}
+
+	public static void search() {
+		int index;
+		Scanner sc = new Scanner(System.in);
+		System.out.print("제목 또는 저자명을 입력해주세요.");
+		String input = sc.nextLine();
+		for (index = 0; index < bookclass.length; index++) {
+			if (bookclass[index] != null) {
+				String author = bookclass[index].getAuthor();
+				String title = bookclass[index].getTitle();
+				int price = bookclass[index].getPrice();
+				String publisher = bookclass[index].getPublisher();
+				if (input.equals(author) || input.equals(title)) {
+					System.out.println("해당 도서가 존재합니다.");
+					System.out.println(
+							"도서명 : " + title + "\n저자명 : " + author + "\n가격 : " + price + "\n출판사 : " + publisher);
+				} else {
+					System.out.println("해당 제목 또는 저자명과 일치하는 도서가 없습니다.");
+				}
+			}
+		}
+
+	}
+}
