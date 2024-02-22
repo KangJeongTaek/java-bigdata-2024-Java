@@ -1,7 +1,1 @@
-INDEX VERSION 1.134+C:\Users\dfgdd\OneDrive\Desktop\git\java-bigdata-2024-Java\.metadata\.plugins\org.eclipse.jdt.core
-725555719.index
-3704190004.index
-3413270776.index
-1865797976.index
-4168333004.index
-1635444598.index
+INDEX VERSION 1.134+G:\Source\java-bigdata-2024-Java\.metadata\.plugins\org.eclipse.jdt.core
