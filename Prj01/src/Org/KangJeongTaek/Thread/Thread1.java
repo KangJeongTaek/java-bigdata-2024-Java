@@ -13,7 +13,7 @@ public class Thread1 extends Thread {
 
 	@Override
 	public void run() {
-		System.out.println("와 화요일이다.");
+		System.out.println("와 목요일이다.");
 	}
 
 	public static void main(String[] args) {
