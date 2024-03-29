@@ -2,6 +2,7 @@ package KangJeongTaek.day09.DefaultMethod;
 
 public class Audio implements RemoteControl{
 	private int volume;
+
 	public void turnOn() {
 		System.out.println("Audio를 켭니다.");
 	}
