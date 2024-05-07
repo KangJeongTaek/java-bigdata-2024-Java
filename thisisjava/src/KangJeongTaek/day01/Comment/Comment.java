@@ -4,6 +4,7 @@ public class Comment { //Comment 클래스
 	public static void main(String[] args) { //main 메소드
 		System.out.println("Hello java!!!");
 		System.out.println("강정택");
+		System.out.println("강정");
 	//한 줄 주석
 		
 		
