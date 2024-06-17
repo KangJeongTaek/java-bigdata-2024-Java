@@ -70,7 +70,25 @@ int intValue = (int) longValue;
 ## 연산자
 
 ### 부호/증감 연산자
+- 부호 연산자
+<table>
+  <tr>
+    <td colspan="2">연산식</td>
+    <td>설명</td>
+  </tr>
+  <tr>
+    <td>+</td>
+     <td>피연산자</td>
+     <td>피연산자의 부호 유지</td>
+  </tr>
+   <tr>
+      <td>-</td>
+      <td>피연산자</td>
+      <td>피연산자의 부호 변경</td>
+   </tr>
+</table>
 
+- 증감 연산자
 <table>
   <tr>
     <td colspan="2">연산식</td>
