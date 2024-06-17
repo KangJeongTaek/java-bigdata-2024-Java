@@ -13,6 +13,7 @@
   
 ## JDK 설치
 - JDK에는 2 종류가 있다.
+  
 |구분|Open JDK|Oracle JDK|
 |---|---|---|
 |라이선스|GNU GPL version 2|Oracle Technology Network License|
