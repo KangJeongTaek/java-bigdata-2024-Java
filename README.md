@@ -81,4 +81,9 @@ int intValue = (int) longValue;
      <td>피연산자</td>
      <td>피연산자의 부호 유지</td>
   </tr>
+   <tr>
+      <td>-</td>
+      <td>피연산자</td>
+      <td>피연산자의 부호 변경</td>
+   </tr>
 </table>
