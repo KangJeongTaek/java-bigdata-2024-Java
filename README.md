@@ -73,13 +73,12 @@ int intValue = (int) longValue;
 
 <table>
   <tr>
-    <td rowspan="2">연산식</td>
-    <td>내용</td>
+    <td colspan="2">연산식</td>
+    <td>설명</td>
   </tr>
   <tr>
-    <td>내용</td>
-  </tr>
-  <tr>
-    <td>내용</td>
+    <td>+</td>
+     <td>피연산자</td>
+     <td>피연산자의 부호 유지</td>
   </tr>
 </table>
