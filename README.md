@@ -30,6 +30,9 @@
   >javac -version
   javac 17.0.3
   ```
+- IDE(Visual Studio Code) 설치
+  - [Visual Studio Code](https://code.visualstudio.com/)
+  - 확장 Extension for Java 설치
 
 ## 변수
 
@@ -37,5 +40,14 @@
 - 정수형 : byte, short, int ,long
 - 실수형 : float, double
 - 문자형 : char
-- 논리형 : boolean 
+- 논리형 : boolean
+
+### 변수 선언
+- 변수는 하나의 값을 저장할 수 있는 메모리 번지에 붙여진 이름
+```java
+int score; //변수 선언
+score =90; //값 대입
+```
+- __변수가 메모리에 할당되는 것은 변수에 최초로 값이 대입될 때 이다.__
+- 변수에 최초로 값을 대입하는 행위를 초기화라고 한다.
  
