@@ -19,8 +19,17 @@
 |라이선스|GNU GPL version 2|Oracle Technology Network License|
 |사용료|무료|개발학습용 : 무료, 상업용 : 유료|
 |개발 소스 공개 의무|없음|없음|
-   
 
+- [이클립스 재단에서 관리하는 어답티움 사이트]((https://adoptium.net)
+- 환경 변수 설정
+  - JAVA_HOME 환경 변수를 생성하고 Path 환경 변수 수정
+  ```shell
+  >java -version
+   openjdk version "17.0.3" ....
+  ...
+  >javac -version
+  javac 17.0.3
+  ```
 
 ## 변수
 
