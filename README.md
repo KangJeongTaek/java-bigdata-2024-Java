@@ -95,13 +95,61 @@ int intValue = (int) longValue;
     <td>설명</td>
   </tr>
   <tr>
-    <td>+</td>
+    <td>++</td>
      <td>피연산자</td>
-     <td>피연산자의 부호 유지</td>
+     <td>피연산자의 값을 1 증가시킴</td>
   </tr>
    <tr>
+      <td>--</td>
+      <td>피연산자</td>
+      <td>피연산자의 값을 1 감소시킴</td>
+   </tr>
+      <tr>
+      <td>피연산자</td>
+      <td>--</td>
+      <td>다른 연산을 수행한 후에 피연산자의 값을 1증가시킴</td>
+   </tr>
+      <tr>
+      <td>피연산자</td>
+      <td>++</td>
+      <td>다른 연산을 수행한 후에 피연산자의 값을 1 감소시킴</td>
+   </tr>
+</table>
+
+- 산술 연산자
+<table>
+   <tr>
+      <td colpan="3">연산식</td>
+      <td>설명</td>
+   </tr>
+   <tr>
+      <td>피연산자</td>
+      <td>+</td>
+      <td>피연산자</td>
+      <td>덧셈 연산</td>
+   </tr>
+      <tr>
+      <td>피연산자</td>
       <td>-</td>
       <td>피연산자</td>
-      <td>피연산자의 부호 변경</td>
+      <td>뺄셈 연산</td>
+   </tr>
+      <tr>
+      <td>피연산자</td>
+      <td>*</td>
+      <td>피연산자</td>
+      <td>곱셈 연산</td>
+   </tr>
+      <tr>
+      <td>피연산자</td>
+      <td/+</td>
+      <td>피연산자</td>
+      <td>나눗셈 연산</td>
+   </tr>
+      <tr>
+      <td>피연산자</td>
+      <td>%</td>
+      <td>피연산자</td>
+      <td>나눗셈의 나머지를 산출하는 연산</td>
    </tr>
 </table>
