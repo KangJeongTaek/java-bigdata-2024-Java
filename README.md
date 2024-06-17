@@ -119,7 +119,7 @@ int intValue = (int) longValue;
 - 산술 연산자
 <table>
    <tr>
-      <td colpan="3">연산식</td>
+      <td colspan="3">연산식</td>
       <td>설명</td>
    </tr>
    <tr>
@@ -142,7 +142,7 @@ int intValue = (int) longValue;
    </tr>
       <tr>
       <td>피연산자</td>
-      <td/+</td>
+      <td>/</td>
       <td>피연산자</td>
       <td>나눗셈 연산</td>
    </tr>
@@ -151,5 +151,68 @@ int intValue = (int) longValue;
       <td>%</td>
       <td>피연산자</td>
       <td>나눗셈의 나머지를 산출하는 연산</td>
+   </tr>
+</table>
+
+### 오버플로우와 언더플로우
+- 오버 플로우 : 타입이 허용하는 최대값을 벗어나는 것
+- 언더 플로우 : 타입이 허용하는 최소값을 벗어나는 것
+  ```java
+  byte value = 127;
+  value++;               //value 값에 1을 더함
+  System.out.println(value); // -128 오버 플로우 발생
+
+  byte value2 = -128;
+  value--;   //value 값에 1을 뺌
+  System.out.println(value); // 127 언더 플로우 발생
+  ```
+
+### 비교 연산자
+<table>
+   <tr>
+      <td>구분</td>
+      <td colspan="3">연산식</td>
+      <td>설명</td>
+   </tr>
+   <tr>
+      <td rowspan="2">동등 비교</td>
+      <td>피연산자1</td>
+      <td>==</td>
+      <td>피연산자2</td>
+      <td>두 피연산자의 값이 같은지를 검사</td>
+      <tr>
+         <td>피연산자1</td>
+         <td>!=</td>
+         <td>피연산자2</td>
+         <td>두 피연산자의 값이 다른지를 검사</td>
+      </tr>
+   </tr>
+   <tr>
+      <td rowspan="4">크기 비교</td>
+      <td>피연산자1</td>
+      <td>></td>
+      <td>피연산자2</td>
+      <td>피연산자1이 큰지를 검사</td>
+      <tr>
+         <td>피연산자1</td>
+         <td>>=</td>
+         <td>피연산자2/td>
+         <td>피연산자1이 크거나 같은지를 검사</td>
+      </tr>
+   
+      <tr>
+         <td>피연산자1</td>
+         <td><</td>
+         <td>피연산자2/td>
+         <td>피연산자1이 작은지를 검사</td>
+      </tr>
+      
+      <tr>
+         <td>피연산자1</td>
+         <td><=</td>
+         <td>피연산자2/td>
+         <td>피연산자1이 작거나 같은지를 검사</td>
+      </tr>
+   </tr>
    </tr>
 </table>
