@@ -196,23 +196,20 @@ int intValue = (int) longValue;
       <tr>
          <td>피연산자1</td>
          <td>>=</td>
-         <td>피연산자2/td>
+         <td>피연산자2</td>
          <td>피연산자1이 크거나 같은지를 검사</td>
       </tr>
-   
       <tr>
          <td>피연산자1</td>
          <td><</td>
-         <td>피연산자2/td>
+         <td>피연산자2</td>
          <td>피연산자1이 작은지를 검사</td>
       </tr>
-      
       <tr>
          <td>피연산자1</td>
          <td><=</td>
-         <td>피연산자2/td>
+         <td>피연산자2</td>
          <td>피연산자1이 작거나 같은지를 검사</td>
       </tr>
-   </tr>
    </tr>
 </table>
