@@ -387,3 +387,39 @@ int [][] scores ={
 타입[][] 변수 = new 타입[1차원수][2차원수];
 ```
 
+### 객체를 참조하는 배열
+- 참조 타입 배열은 각 항복에 객체의 번지를 저장한다.
+
+### 배열 복사
+- __배열은 한 번 생성하면 길이를 변경할 수 없다.__ 복사를 위해서는 더 큰 길이의 배열을 새로 만들고 이전 배열로부터 항목들을 복사해야 한다.
+```java
+System.arraycopy(Object src, int srcPos,Object dest,int destPos, int length);
+```
+
+### 상향된 for 문
+```java
+for(타입 변수 : 배열){
+   실행문;
+}
+```
+### 열거 타입
+- 한정된 값을 갖는 타입
+```java
+Week.java
+
+package java.chap05;
+public enum Week{
+   MONDAY,
+   TUESDAY,
+   WEDNESDAY,
+   THURSDAY,
+   FRIDAY,
+   SATURDAY,
+   SUNDAY
+}
+
+
+Week today= Week.SUNDAY;
+```
+
+## 클래스
