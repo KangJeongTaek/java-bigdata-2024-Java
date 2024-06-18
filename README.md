@@ -367,4 +367,23 @@ do{
 
   String[] names = new String[30];
   ```
-  
+
+- 배열 길이
+   ```java
+  배열변수.length;
+   ```
+### 다차원 배열
+![image](https://github.com/KangJeongTaek/java-bigdata-2024-Java/assets/158122796/bf6f0873-983c-4c14-943c-0baed6babf26)
+
+```java
+변수[1차원인덱스][2차원인덱스][N차원인덱스]
+int [][] scores ={
+   {80,90,96},
+   {76,88}
+}
+```
+- new 연산자로 다차원 배열
+```java
+타입[][] 변수 = new 타입[1차원수][2차원수];
+```
+
