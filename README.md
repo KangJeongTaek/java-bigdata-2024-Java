@@ -579,3 +579,74 @@ if(parent instanceof Child child){
 - abstract 리턴타입 메소드명(매개변수,...)
 - 실행 내용을 가지지 않는다.
 - **반드시** 자식 클래스에서 재정의해 실행 내용을 채워야 한다.
+
+### 봉인된 클래스
+```java
+public sealed class Person permits Employee,Manager{...}
+```
+- 봉인된 클래스를 상속하는 클래스는 final로 선언하거나 non-sealed 키워드로 선언하거나 sealed로 또 다른 봉인 클래스로 선언해야 한다.
+
+## 인터페이스
+### 인터페이스 역할
+- 두 객체를 연결하는 역할
+- 다형성 구현에 주된 기술로 이용된다.
+
+### 인터페이스와 구현 클래스 선언
+- 인터페이스 선언
+```java
+interface 인터페이스명{...}
+```
+- 구현 클래스 선언
+```java
+public 클래스 implements 인터페이스명{...}
+```
+
+### 다중 인터페이스 구현
+- 구현 객체는 여러 개의 인터페이스는 implements 할 수 있다.
+
+### 인터페이스 상속
+- 인터페이슫 ㅗ다른 인터페이스를 상속할 수 있으며 클래스와 달리 다중 상속을 허용한다.
+
+### 타입 변환(상속의 타입 변환과 비슷하다)
+- 자동 타입 변환
+- 강제 타입 변환
+
+### 다형성(상속의 다형성과 비슷하다)
+- 상속보다 인터페이스를 통해 다형성을 구현하는 경우가 더 많다.
+- 필드의 다형성
+- 매개변수의 다형성
+
+### 객체 타입 확인
+### 봉인된 인터페이스
+
+### 익명 객체와 익명 구현 객체
+- 익명 객체
+```java
+private Tire tire = new Tire(){
+   @Override
+   public void run(){
+   System.out.println("익명객체");
+   }
+};
+```
+- 익명 구현객체
+```java
+private RemoteControl rc = new RemoteControl(){
+   @Override
+   public void turnOn(){
+      System.out.println("Tv를 켭니다.");
+   }
+};
+```
+
+## 예외처리
+
+### 예외와 예외 클래스
+- 일반 예외
+  - 컴파일러가 예외 처리 코드 여부를 검사하는 예외
+- 실행 예외
+  - 컴파일러가 예외 처리 코드를 여부를 검사하지 않는 예외
+    ![image](https://github.com/KangJeongTaek/java-bigdata-2024-Java/assets/158122796/b902216e-c271-435c-becc-f92851ccfbf3)
+
+### 예외 처리 코드
+-try-catch-finally 블록으로 구성된다.
