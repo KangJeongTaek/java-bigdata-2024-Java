@@ -649,4 +649,14 @@ private RemoteControl rc = new RemoteControl(){
     ![image](https://github.com/KangJeongTaek/java-bigdata-2024-Java/assets/158122796/b902216e-c271-435c-becc-f92851ccfbf3)
 
 ### 예외 처리 코드
--try-catch-finally 블록으로 구성된다.
+- try-catch-finally 블록으로 구성된다.
+```java
+String data = null;
+try{
+   int result = data.length();
+}catch(NullPointerExceiption e){
+   System.out.println(e.getMessage());
+}finally{
+   System.out.println("finally문 실행");
+}
+```
